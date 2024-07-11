@@ -10,6 +10,7 @@ export function Layout() {
           <a href="#"/>
         </div>
         <nav>
+          <NavLink to="/" className={({ isActive}) => isActive ? "a-active" : ""}>Home</NavLink>
           <NavLink to="professores" className={({ isActive}) => isActive ? "a-active" : ""}>Professores</NavLink>
           <NavLink to="disciplinas" className={({ isActive}) => isActive ? "a-active" : ""}>Disciplinas</NavLink>
           <NavLink to="alunos" className={({ isActive}) => isActive ? "a-active" : ""}>Alunos</NavLink>
