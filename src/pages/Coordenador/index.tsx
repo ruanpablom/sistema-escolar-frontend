@@ -5,7 +5,6 @@ import './styles.css'
 export function Coordenador() {
   return (
     <>
-      
       <div className='container'>
         <h1 style={{margin:0}}>Seja bem vindo!</h1> 
         <h1 style={{margin:0, color: 'var(--secondary-color)'}}>Coordenador Ruan Pablo Medeiros</h1>
@@ -28,7 +27,6 @@ export function Coordenador() {
           </NavLink>
         </nav>
       </div>
-    </>
-    
+    </>  
   )
 }
