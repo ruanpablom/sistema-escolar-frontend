@@ -8,39 +8,35 @@
   padding: 0 20%;
 }
 
-header{
-    display: flex;
-    background-color: #fff;
-    border-bottom: 1px solid #e5e5e5;
-    padding: 10px 40px;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+.container nav{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-top: 20px;
 }
 
-.logo a{
-    background-image: url(../../assets/logo-senac-cnc-color-100.png);
-    /* background-image: url(../images/senac_logo.png); */
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: block;
-    width: 100px;
-    height: 59px;
-    font-size: 0;
+.item-menu{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  min-width: 150px;
+  width: fit-content;
+  align-items: center;
+  border: 1px solid var(--secondary-color);
 }
 
-header nav{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 0 20px;
+.item-menu:hover{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  width: fit-content;
+  align-items: center;
+  border: 1px solid var(--primary-color);
 }
 
-header .right{
-    display: flex;
-    width: 100px;
+.item-menu-active{
+  border: 1px solid var(--primary-color);
 }
 

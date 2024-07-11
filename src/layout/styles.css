@@ -10,7 +10,7 @@ header{
 }
 
 .logo a{
-  background-image: url(../../assets/logo-senac-cnc-color-100.png);
+  background-image: url(../assets/logo-senac-cnc-color-100.png);
   /* background-image: url(../images/senac_logo.png); */
   background-size: 100%;
   background-repeat: no-repeat;
