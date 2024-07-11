@@ -45,14 +45,17 @@ a{
   font-weight: bold;
   border: none;
   transition: all 0.3s;
+  text-decoration: none;
 }
 
 a:hover{
   color: var(--primary-color);
+  text-decoration: none;
 }
 
 .a-active{
   cursor: pointer;
   color: var(--primary-color);
+  text-decoration: none;
 }
 
